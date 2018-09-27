@@ -1,0 +1,21 @@
+{
+  "name": "sqlpop",
+  "collaborators": [
+    "gwenn"
+  ],
+  "description": "SQL parser (as understood by SQLite)",
+  "version": "0.3.0",
+  "license": "Apache-2.0/MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwenn/sqlpop"
+  },
+  "files": [
+    "sqlpop_bg.wasm",
+    "sqlpop.js",
+    "sqlpop.d.ts"
+  ],
+  "module": "sqlpop.js",
+  "types": "sqlpop.d.ts",
+  "sideEffects": "false"
+}

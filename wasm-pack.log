@@ -1,0 +1,104 @@
+Sep 26 20:58:52.629 ERRO Compilation of your program failed. stderr:
+
+   Compiling rand_core v0.2.1
+   Compiling unicode-xid v0.1.0
+   Compiling siphasher v0.2.3
+   Compiling libc v0.2.43
+   Compiling version_check v0.1.4
+   Compiling string_cache_shared v0.3.0
+   Compiling proc-macro2 v0.4.19
+   Compiling void v1.0.2
+   Compiling serde v1.0.79
+   Compiling cfg-if v0.1.5
+   Compiling typenum v1.10.0
+   Compiling ucd-util v0.1.1
+   Compiling regex v1.0.5
+   Compiling ryu v0.2.6
+   Compiling ordermap v0.3.5
+   Compiling utf8-ranges v1.0.1
+   Compiling term v0.4.6
+   Compiling precomputed-hash v0.1.1
+   Compiling fixedbitset v0.1.9
+   Compiling bit-vec v0.5.0
+   Compiling either v1.5.0
+   Compiling lalrpop-util v0.16.0
+   Compiling regex v0.2.11
+   Compiling regex-syntax v0.4.2
+   Compiling wasm-bindgen-shared v0.2.23
+   Compiling diff v0.1.11
+   Compiling itoa v0.4.3
+   Compiling byte-tools v0.2.0
+   Compiling arrayref v0.3.5
+   Compiling strsim v0.6.0
+   Compiling fake-simd v0.1.2
+   Compiling wasm-bindgen v0.2.23
+   Compiling proc-macro2 v0.3.8
+   Compiling phf_shared v0.7.23
+   Compiling unreachable v1.0.0
+   Compiling rand v0.5.5
+   Compiling atty v0.2.11
+   Compiling log v0.4.5
+   Compiling memchr v2.1.0
+   Compiling lazy_static v1.1.0
+   Compiling regex-syntax v0.6.2
+   Compiling regex-syntax v0.5.6
+   Compiling petgraph v0.4.13
+   Compiling bit-set v0.5.0
+   Compiling itertools v0.7.8
+   Compiling ascii-canvas v1.0.0
+   Compiling block-buffer v0.3.3
+   Compiling new_debug_unreachable v1.0.1
+   Compiling phf_generator v0.7.23
+   Compiling ena v0.9.3
+   Compiling quote v0.5.2
+   Compiling string_cache_codegen v0.4.1
+   Compiling quote v0.6.8
+   Compiling generic-array v0.9.0
+   Compiling syn v0.15.4
+   Compiling string_cache v0.7.3
+   Compiling thread_local v0.3.6
+   Compiling digest v0.7.5
+   Compiling aho-corasick v0.6.8
+   Compiling sha2 v0.7.1
+   Compiling serde_json v1.0.31
+   Compiling lalrpop-snap v0.16.0
+   Compiling serde_derive v1.0.79
+   Compiling docopt v0.8.3
+   Compiling wasm-bindgen-backend v0.2.23
+   Compiling wasm-bindgen-macro-support v0.2.23
+   Compiling lalrpop v0.16.0
+   Compiling wasm-bindgen-macro v0.2.23
+   Compiling sqlpop v0.3.0 (/Users/amila/Documents/Projects/sqlpop)
+error[E0658]: The attribute `wasm_bindgen` is currently unknown to the compiler and may have meaning added to it in the future (see issue #29642)
+  --> src/parser/mod.rs:16:3
+   |
+16 | #[wasm_bindgen]
+   |   ^^^^^^^^^^^^
+   |
+   = help: add #![feature(custom_attribute)] to the crate attributes to enable
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0658`.
+error: Could not compile `sqlpop`.
+
+To learn more, run the command again with --verbose.
+
+Sep 26 21:02:39.956 ERRO Compilation of your program failed. stderr:
+
+   Compiling sqlpop v0.3.0 (/Users/amila/Documents/Projects/sqlpop)
+error[E0658]: The attribute `wasm_bindgen` is currently unknown to the compiler and may have meaning added to it in the future (see issue #29642)
+  --> src/parser/mod.rs:17:3
+   |
+17 | #[wasm_bindgen]
+   |   ^^^^^^^^^^^^
+   |
+   = help: add #![feature(custom_attribute)] to the crate attributes to enable
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0658`.
+error: Could not compile `sqlpop`.
+
+To learn more, run the command again with --verbose.
+

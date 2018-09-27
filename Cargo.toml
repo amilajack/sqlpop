@@ -21,6 +21,7 @@ maintenance = { status = "experimental" }
 
 [dependencies]
 lalrpop-util = "0.16"
+wasm-bindgen = "0.2"
 
 [build-dependencies]
 lalrpop = "0.16"
